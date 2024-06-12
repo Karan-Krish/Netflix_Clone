@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Galada&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Galada&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.main {
+    background-image: url("assets/img/bg.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+   background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+    margin-top: 80px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+
+.hero {
+
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    gap: 23px;
+    padding: 0 31px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 67px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    text-align: center;
+    font-size: 32px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.separation {
+    background-color: rgb(18, 19, 18);
+    height: 5px;
+}
+
+
+
+
+
+
+
+.btn {
+    padding: 2px 19px;
+    margin-top: 50px;
+    background-color: rgba(65, 62, 62, 0.281);
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-red-sm {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+
+
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 15px 0px 15px 20px;
+    font-size: 30px;
+    border-radius: 4px;
+    font-weight: 400;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+.btn-red {
+    background-color: rgba(255, 14, 14, 0.932);
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 12px 55px 12px 22px;
+    font-size: 34px;
+    border-radius: 4px;
+}
+
